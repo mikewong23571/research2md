@@ -1,0 +1,15 @@
+[project]
+name = "termdive"
+version = "0.1.0"
+description = "LLM-assisted research pipeline"
+authors = [{ name = "TermDive" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+termdive = "termdive.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["termdive*"]
