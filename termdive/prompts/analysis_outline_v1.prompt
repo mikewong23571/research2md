@@ -1,0 +1,8 @@
+You are an expert analyst. Given the following research report text:
+"""
+{pdf_excerpt}
+"""
+Produce JSON with fields:
+- sections: array of {title, summary, level, entities[]}
+Ensure summaries are 2 sentences max.
+Run ID: {run_id}
