@@ -1,7 +1,3 @@
-# Project Description
-
-Automated learning pipeline: prompts ChatGPT/Gemini to deep-search a term → exports a PDF → analyzes the PDF to extract structure → generates a well formatted Markdown.
-
 ---
 
 # README
